@@ -1,0 +1,269 @@
+body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+    }
+	/* Define the size of the checkbox */
+	input[type="checkbox"] {
+	  width: 60px; /* Adjust width */
+	  height: 60px; /* Adjust height */
+	}
+    th, td {
+      border: 1px solid white;
+      border-radius: 10px;
+	  text-align: center;
+    }
+    .bimage {
+      display: block;
+      max-width: 200px; /* Adjust the value as needed */
+      height: auto;
+      border-radius: 10px;
+    }
+	.modal {
+		position: fixed;
+		inset: 0;
+		background: rgba(254, 126, 126, 0.7);
+		display: none;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.content {
+		position: relative;
+		background: white;
+		padding: 0.5em 1em; /* Adjust padding to make the box smaller */
+		border-radius: 4px;
+	}
+
+	.modal:target {
+		display: flex;
+	}
+ 
+ 
+ /*CSS FOR CART AND MERCH*/
+	.cm-item {
+	   border: 1px solid #ddd;
+	   border-radius: 10px;
+	   padding: 10px;
+	   margin-bottom: 10px;
+	}
+    .mimg {
+	  width: 35%; /* Make the width of the image 25% of its original size */
+	  height: auto; /* Maintain aspect ratio */
+	  border-radius: 10px;
+	}
+	.cm-header {
+	   border-bottom: 1px solid #ddd;
+	   padding-bottom: 5px;
+	   margin-bottom: 10px;
+	}
+	
+	.counter {
+	   display: flex;
+	   align-items: center;
+	}
+
+	.counter button {
+	   padding: 5px;
+	}
+
+	.counter span {
+	   margin: 0 10px;
+	}
+	.price-section {
+	   /* Styling for price section */
+	   font-size: 16px;
+	   margin-top: 10px; 
+	}
+	.checkout-section {
+	   border-top: 1px solid #ddd;
+	   padding-top: 10px;
+	}
+
+	.checkout-section button {
+	   padding: 10px 20px;
+	   background-color: #4CAF50; 
+	   color: white;
+	   border: none;
+	   cursor: pointer;
+	}
+	
+/*GENRE PAGE CODE*/
+
+    .overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #008CBA;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+      transform: scale(0);
+      -webkit-transition: .3s ease;
+      transition: .3s ease;
+    }
+    .bcontainer {
+      position: relative;
+      display: inline-block;
+    }
+    .bcontainer:hover .overlay {
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+    }
+
+    .text {
+      color: white;
+      font-size: 10px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    /* Style for the container */
+    .image-container { 
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden; 
+      z-index: -1; /* Ensure the image stays behind other content */
+      background-size: cover;
+      background-position: center;
+    }
+
+    /* Style for the content */
+    .content {
+      position: fixed;
+      top: 58%; /* Start from below 58% of the screen */
+      left: 5%; /* Adjusted left spacing */
+      right: 2%; /* Adjusted right spacing */
+      transform: translateY(-50%); /* Center vertically */
+      background: rgba(0, 0, 0, 0.5);/*bLACK COLOR with 50% transperency*/
+      color: #f1f1f1;/*White text color*/
+      width: 88%; /* Adjusted width */
+      height: 80%;
+      padding: 5px; /*from the sides*/
+      box-sizing: border-box; /* Include padding in width calculation */
+      overflow-y: auto; /* Enable vertical scrolling if content exceeds container height */
+      max-height: calc(75% - 5px); /* Set max height to 50% of screen minus padding */
+      border-radius: 25px; /* Add curved edges */
+    }
+
+    /* Style for scrollbar */
+    .content::-webkit-scrollbar {
+      width: 12px; /* Width of the scrollbar */
+      border-radius: 10px; /* Rounded corners */
+    }
+
+    /* Track */
+    .content::-webkit-scrollbar-track {
+      background: transparent; /* Track background color */
+    }
+	
+	/* Define the style for anchor (link) elements */
+    a {
+        color: white; /* Set the color to white */
+        text-decoration: none; /* Remove underline if needed */
+    }
+	
+    /* Handle */
+    .content::-webkit-scrollbar-thumb {
+      background: white; /* Color of the scrollbar handle */
+      border-radius: 10px; /* Rounded corners */
+    }
+
+    /* Handle on hover */
+    .content::-webkit-scrollbar-thumb:hover {
+      background: #555; /* Color of the scrollbar handle on hover */
+    }
+
+    h1 {
+      text-align: center;
+      width: 88%;
+      margin: auto;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+	
+/*LIBRARY CODE*/
+	
+	.lib-container {
+        max-width: 800px;
+		max-height: 400px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .lib-book {
+    width: calc(25% - 10px); /* Adjusted width for four books */
+    margin-bottom: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column; /* Added to stack elements vertically */
+    }
+    
+    .lib-book:hover img {
+        transform: scale(1.05);
+    }
+    .lib-book-info {
+        display: none;
+        padding: 10px;
+        border-top: 1px solid #ddd;
+        background-color: #f9f9f9;
+    }
+    .lib-book input[type="checkbox"] {
+        display: none;
+    }
+    .lib-book input[type="checkbox"]:checked ~ .lib-book-info {
+        display: block;
+    }
+    .lib-book-title {
+        font-size: 14px; /* Adjusted font size */
+        font-weight: bold;
+        margin: 0 0 5px;
+    }
+    .lib-book-author {
+        color: #666;
+        margin: 0;
+        font-size: 12px; /* Adjusted font size */
+    }
+    .lib-book-description {
+        margin: 10px 0;
+        color: #333;
+        font-size: 12px; /* Adjusted font size */
+    }
+    .lib-details-button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 6px 10px; /* Adjusted padding */
+        border-radius: 3px;
+        font-size: 10px; /* Adjusted font size */
+        cursor: pointer;
+        transition: background-color 0.3s;
+        width: 100%;
+        text-align: center;
+    }
+    .lib-details-button:hover {
+        background-color: #0056b3;
+    }
+    .lib-book img {
+        width: 100%; /* Set width to 100% */
+        height: auto;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        transition: transform 0.3s;
+    }

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MARS BOOKSHOP</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<style>
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-image: url('home.jpg'); /* Changed background attribute to CSS */
+  background-size: cover;
+}
+/* Style for the content */
+.content {
+  position: fixed; /* Change from absolute to fixed */
+  top: 65%; /* Start from below 50% of the screen */
+  left: 2%; /* Adjusted left spacing */
+  right: 2%; /* Adjusted right spacing */
+  transform: translateY(-50%); /* Center vertically */
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 30%; /* Adjusted width */
+  height: 50%;
+  padding: 5px;
+  box-sizing: border-box; /* Include padding in width calculation */
+  overflow-y: auto; /* Enable vertical scrolling if content exceeds container height */
+  max-height: calc(60% - 5px); /* Set max height to 50% of screen minus padding */
+  border-radius: 15px; /* Add curved edges */
+}
+.content-new {
+  position: fixed; /* Change from absolute to fixed */
+  top: 65%; /* Start from below 50% of the screen */
+  left: 40%; /* Adjusted left spacing */
+  right: 2%; /* Adjusted right spacing */
+  transform: translateY(-50%); /* Center vertically */
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 52%; /* Adjusted width */
+  height: 50%;
+  padding: 5px;
+  box-sizing: border-box; /* Include padding in width calculation */
+  overflow-y: auto; /* Enable vertical scrolling if content exceeds container height */
+  max-height: calc(60% - 5px); /* Set max height to 50% of screen minus padding */
+  border-radius: 15px; /* Add curved edges */
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #464D38;
+  border-radius: 10px; /* Add round edges */
+}
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 15px;
+  
+}
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #636D4F;
+}
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #636D4F;
+}
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+/* Show tab content when target is active */
+.tabcontent:target {
+  display: block;
+}
+/* Navbar styles */
+.navbar {
+  overflow: hidden;
+  background: linear-gradient(to right, #464D38, #636D4F); /* Gradient background for navbar */
+  border-radius: 15px;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+th, td {
+      border: 2px solid #413839;
+      border-radius: 6px;
+	  text-align: center;
+    }
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #636D4F;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  background: linear-gradient(to right, #464D38, #636D4F); /* Gradient background for MARS BOOKSHOP */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Pacifico', cursive; /* Applying Pacifico font to the heading */
+}
+
+/* Change headings to Comic Sans and remove underline */
+.tab button a {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-decoration: none;
+}
+</style>
+</head>
+<body background="home.jpg">
+
+<h1>MARS BOOKSHOP</h1>
+
+<div class="navbar">
+  <a href="Homepage.html">Home</a>
+  <a href="teampage.html">Meet our team</a>
+  <a href="https://mahekdevangtrivedi.podia.com/community/public">Community</a>
+  <a href="LibraryPage.html">Library</a>
+  <a href="Cart.html">Cart</a>
+  <div class="dropdown">
+    <button class="dropbtn">Genres
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="ThrillerFile.html">Thriller</a>
+      <a href="RomanceFile.html">Romance</a>
+      <a href="scifi.xml">Sci-fi</a>
+      <a href="historypage.xml">Historical</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Shop Merch
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Merch.html">Bookmarks Stickers</a>
+    </div>
+  </div>
+  <a href="EventPage.html">Events</a>
+</div>
+<div class="content">
+  <div class="tab">
+    <button><a href="#About_Us" style="color: white;">About Us</a></button> <!-- Replaced space with underscore in href -->
+    <button><a href="#Contact" style="color: white;">Contact Us</a></button>
+  </div>
+  <div id="About_Us" class="tabcontent"> <!-- Replaced space with underscore in id -->
+    <h3>Welcome to 'MARS'</h3>
+    <p>MARS-not the red planet, but a verdant oasis for bibliophiles 
+    to immerse yourself in a curated collection inspired by the beauty
+    and wonder of the natural world.We provide complimentary e-books
+    and hardcover books for purchase, along with a selection of nature-themed 
+    merchandise. We hope you enjoy your experience with us.</p>
+  </div>
+  <div id="Contact" class="tabcontent">
+    <h3>Contact</h3>
+    <p>Thank you for reaching out to MARS. We value your feedback and inquiries. Please feel free to contact us through any of the following branches:</p>
+
+    <h2>Branch 1 Korea:</h2>
+    <p><strong>Phone:</strong> 123456789</p>
+    <p><strong>Email:</strong> <a href="mailto:Branch_1_Email_Address">[Branch 1 Email Address]</a></p>
+
+    <h2>Branch 2 Japan:</h2>
+    <p><strong>Phone:</strong> 234567891</p>
+    <p><strong>Email:</strong> <a href="mailto:Branch_2_Email_Address">[Branch 2 Email Address]</a></p>
+
+    <h2>Branch 3 Germany:</h2>
+    <p><strong>Phone:</strong> 345678912</p>
+    <p><strong>Email:</strong> <a href="mailto:Branch_3_Email_Address">[Branch 3 Email Address]</a></p>
+
+    <p>For general inquiries or assistance, you can also contact our main office:</p>
+
+    <h2>Main Office Headquaters France:</h2>
+    <p><strong>Phone:</strong> 456789123</p>
+    <p><strong>Email:</strong> <a href="mailto:Main_Office_Email_Address">[Main Office Email Address]</a></p>
+
+    <p>Our team will strive to respond to your queries promptly.</p>
+  </div>
+  <img src="Blogo.png" alt="Blogo" width="355" height="230">
+</div>
+<div class="content-new">
+  <h2>Bookshop Opening and Closing Timings</h2>
+  <p>Dear Customers,</p>
+  <p>We would like to inform you about the opening and closing timings of our bookshop:</p>
+  <ul>
+    <li><strong>Monday to Friday:</strong> 9:00 AM - 8:00 PM</li>
+    <li><strong>Saturday:</strong> 10:00 AM - 6:00 PM</li>
+    <li><strong>Sunday:</strong> Closed</li>
+  </ul>
+  <p></p>
+  <h2>Bookshop Events</h2>
+  <ol>
+      <li>Library Evening</li>
+      <li>EID Volunteering</li>
+      <li>Open Mic</li>
+      <li>Workshop</li>
+    </ol>
+</div>
+<br>
+
+
+</body>
+</html>

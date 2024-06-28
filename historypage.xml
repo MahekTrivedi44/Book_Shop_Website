@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Historyxsl.xsl"?>
+<Mars_bookshop>
+		<book>
+			<Genre>History</Genre>
+			<title>The Sacred History</title>
+			<author>
+				<FirstName>Mark</FirstName>
+				<LastName>Booth</LastName>
+			</author>
+			<published_date>29 January 2013</published_date>
+			<price>60</price>
+			
+			<image>
+			https://m.media-amazon.com/images/I/81tmGkwUwLL._SL1500_.jpg
+            </image>
+			<description>
+				The Sacred History is an account of the workings of the supernatural in history. It tells the epic story of angels, from Creation,
+				to Evolution through to the operations of the supernatural in the modern world.
+				This tale of how people and peoples have been helped by angels and other angelic beings is woven into a spellbinding narrative that brings together Krishna, Moses, Buddha, Elijah, Mary and Jesus, Mohammed, 
+				Joan of Arc, the angels who helped Hungarian Jews persecuted by the Nazis, and stories from African, Native American and Celtic traditions
+			</description>
+		</book>
+		<book>
+			<Genre>History</Genre>
+			<title>The Wright Brothers</title>
+			<author>
+				<FirstName>David</FirstName>
+				<LastName>David McCullough</LastName>
+			</author>
+			<published_date>August 2015</published_date>
+			<price>50</price>
+			
+			<image>https://m.media-amazon.com/images/I/515EjXI21kL.jpg</image>
+			<description>
+				On December 17, 1903, at Kitty Hawk, North Carolina, Wilbur and Orville Wright's Wright Flyer became the first powered, heavier-than-air machine to achieve controlled, 
+				sustained flight with a pilot aboard. The Age of Flight had begun. 
+				How did they do it? And why? David McCullough tells the extraordinary and truly American story of the two brothers who changed the world.
+			</description>
+		</book>
+		<book>
+			<Genre>History</Genre>
+			<title>The Forgotten Village</title>
+			<author>
+				<FirstName>Lorna</FirstName>
+				<LastName>Cook</LastName>
+			</author>
+			<published_date>1818</published_date>
+			<price>40</price>
+			
+			<image>https://m.media-amazon.com/images/I/51vd4z1zXeL.jpg</image>
+			<description>
+				1943: the world is at war, and the villagers of Tyneham are being asked to make one more sacrifice: 
+				to give their homes over to the British army. But on the eve of their departure, a terrible act will cause three of them to disappear forever.
+			</description>
+		</book>
+		<book>
+			<Genre>History</Genre>
+			<title>My Husbands Secrets</title>
+			<author>
+				<FirstName>Louise</FirstName>
+				<LastName>Sharland</LastName>
+			</author>
+			<published_date>2022</published_date>
+			<price>87</price>
+			
+			<image>https://m.media-amazon.com/images/I/51RgVTY3vdL.jpg</image>
+			<description>
+				Grief-stricken, Ali can’t bring herself to believe that her beloved Matthew is gone.
+				The smell of his aftershave lingers in their bedroom. His voice still rings out on their answerphone. She sees his face in the eyes of strangers.
+				But as the months pass, and her family and friends rally round, Ali starts to uncover secrets that Matthew kept from her.
+			</description>
+		</book>
+		<book>
+			<Genre>History</Genre>
+			<title>The Secret History of The World </title>
+			<author>
+				<FirstName>Mark</FirstName>
+				<LastName>Booth</LastName>
+			</author>
+			<published_date>23 February 2015</published_date>
+			<price>60</price>
+			<image>https://m.media-amazon.com/images/I/91MuAnB2LPL._SL1500_.jpg</image>
+			<description>
+				They say that history is written by the victors. 
+				But what if history—or what we have come to know as history—has been written by the wrong people? What if everything we’ve been told is only part of the story?
+
+			</description>
+		</book>
+</Mars_bookshop>

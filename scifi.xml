@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tutorials SYSTEM "Mars_bookshop.dtd">
+<?xml-stylesheet type="text/xsl" href="Scifixsl.xsl"?>
+
+<Mars_bookshop>
+		<book>
+			<Genre>Science Fiction</Genre>
+			<title>Divergent</title>
+			<author>
+				<FirstName>Veronica</FirstName>
+				<LastName>Roth</LastName>
+			</author>
+			<published_date>26 April 2011</published_date>
+			<price>50</price>
+			
+			<image>https://m.media-amazon.com/images/I/41Anl+0nXvL._SY445_SX342_.jpg</image>
+			<description>
+				Divergent is a post-apocalyptic novel where the population
+				of Chicago has been separated into five Factions,that are
+				each defined by a given set of values, personality traits, 
+				and social affiliations.
+			</description>
+		</book>
+		<book>
+			<Genre>Science Fiction</Genre>
+			<title>Dune</title>
+			<author>
+				<FirstName>Frank</FirstName>
+				<LastName>Herbert</LastName>
+			</author>
+			<published_date>August 1965</published_date>
+			<price>70</price>
+			
+			<image>https://m.media-amazon.com/images/I/41h5qkXPAeL._SY445_SX342_.jpg</image>
+			<description>
+				Dune is the story of young Paul Atreides  whose family
+				accepts the stewardship of the planet Arrakis. While the 
+				planet is an inhospitable and sparsely populated desert wasteland,
+				it is the only source of melange, or "spice", a drug that extends
+				life and enhances mental abilities.
+			</description>
+		</book>
+		<book>
+			<Genre>Science Fiction</Genre>
+			<title>Frankenstein</title>
+			<author>
+				<FirstName>Mary</FirstName>
+				<LastName>Shelley</LastName>
+			</author>
+			<published_date>1818</published_date>
+			<price>40</price>
+			
+			<image>https://m.media-amazon.com/images/I/51AU6VDF3sL._SY445_SX342_.jpg</image>
+			<description>
+				Victor Frankenstein, a Swiss student of natural 
+				science who creates an artificial man from pieces 
+				of corpses and brings his creature to life.
+			</description>
+		</book>
+		<book>
+			<Genre>Science Fiction</Genre>
+			<title>An Unkindness of Ghosts</title>
+			<author>
+				<FirstName>Rivers</FirstName>
+				<LastName>Solomon</LastName>
+			</author>
+			<published_date>18 September 2017</published_date>
+			<price>40</price>
+			
+			<image>https://m.media-amazon.com/images/I/51fHZo-9N9L._SY445_SX342_.jpg</image>
+			<description>
+				On board the generation ship Matilda where
+				the passengers have formed a society stratified along racial
+				lines such that those with dark skin are relegated to lower-deck lives 
+				of servitude and harsh behavioral restrictions, Aster Gray is a lower-decks 
+				healer who must discover the hidden connection between her mother's suicide 
+				decades ago and the mysterious death of the ship's Sovereign.
+			</description>
+		</book>
+		<book>
+			<Genre>Science Fiction</Genre>
+			<title>The Resisters: A Novel </title>
+			<author>
+				<FirstName>Gish</FirstName>
+				<LastName>Jen</LastName>
+			</author>
+			<published_date>1 February 2020</published_date>
+			<price>60</price>
+			<image>https://m.media-amazon.com/images/I/917mj686yGL._SY522_.jpg</image>
+			<description>
+				A scavenger robot wanders in the wasteland created by a war that has 
+				destroyed humanity in this evocative post-apocalyptic robot western from the 
+				critically acclaimed author, screenwriter, and noted film critic. 
+			</description>
+		</book>
+</Mars_bookshop>

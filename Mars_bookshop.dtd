@@ -1,0 +1,35 @@
+<!DOCTYPE Mars_bookshop
+[
+<!ELEMENT Mars_bookshop(book+)>
+
+
+<!ELEMENT book(Genre,title,author,published_date,price,image,description)>
+
+
+<!ELEMENT Genre(#PCDATA)>
+
+
+<!ELEMENT title(#PCDATA)>
+
+
+<!ELEMENT author(LastName,FirstName)>
+
+
+<!ELEMENT published_date(#PCDATA)>
+
+
+<!ELEMENT price(#PCDATA)>
+
+
+<!ELEMENT image(#PCDATA)>
+
+
+<!ELEMENT description(#PCDATA)>
+
+
+<!ELEMENT LastName(#PCDATA)>
+
+
+<!ELEMENT FirstName(#PCDATA)>
+]>
+
