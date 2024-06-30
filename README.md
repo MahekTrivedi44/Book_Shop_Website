@@ -4,7 +4,7 @@ Project Overview:
 In today's digital age, having a seamless and user-friendly website for book enthusiasts is essential. To address this, I developed a static bookshop website with a focus on simplicity, speed, and an appealing interface.
 
 Key Features:
-📚 Elegant Design: Clean and visually appealing layout.
+📚 Elegant Design: Clean and visually appealing layout. 
 🚀 Fast Loading: Static content ensures quick load times.
 📖 Genre Pages: Four different genre pages, two developed using HTML and CSS, and two using XML, XSL, and DTD.
 📞 Contact Team Members: Easy access to contact information for the bookshop team.
